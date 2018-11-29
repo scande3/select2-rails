@@ -4171,7 +4171,7 @@ S2.define('select2/dropdown/attachBody',[
     $dropdown.addClass('select2-container--open');
 
     $dropdown.css({
-      position: 'absolute',
+      position: 'inherit',
       top: -999999
     });
 
